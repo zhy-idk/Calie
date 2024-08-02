@@ -10,17 +10,26 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Test pull and commit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476" />
 
     <CalendarView
         android:id="@+id/calendarView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="51dp" />
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="408dp"
+        android:layout_height="367dp"
+        app:srcCompat="@drawable/calie_logo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="366dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
