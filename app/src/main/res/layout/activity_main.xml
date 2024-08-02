@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8AC6D1"
     tools:context=".MainActivity">
 
     <TextView
@@ -19,17 +20,57 @@
 
     <CalendarView
         android:id="@+id/calendarView"
+        android:layout_width="271dp"
+        android:layout_height="271dp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="1dp" />
+        app:srcCompat="@drawable/blue"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="140dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="408dp"
-        android:layout_height="367dp"
-        app:srcCompat="@drawable/calie_logo"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/red"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pink"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="600dp"
+        android:layout_height="71dp"
+        app:srcCompat="@drawable/bottom_nav_bar"
+        tools:layout_editor_absoluteX="-95dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bar"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="366dp" />
+        tools:layout_editor_absoluteY="4dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/date"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="44dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
