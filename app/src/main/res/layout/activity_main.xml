@@ -106,34 +106,40 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/calendarView"
-        app:layout_constraintVertical_bias="0.857"
+        app:layout_constraintVertical_bias="0.855"
         app:srcCompat="@drawable/taskbar" />
 
     <ImageView
         android:id="@+id/TaskBar3"
         android:layout_width="255dp"
         android:layout_height="40dp"
-        android:layout_marginTop="676dp"
         app:layout_constraintBottom_toTopOf="@+id/TaskBar4"
-        app:layout_constraintTop_toTopOf="@+id/TopToolBar"
-        app:srcCompat="@drawable/taskbar"
-        tools:layout_editor_absoluteX="97dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.969"
+        app:srcCompat="@drawable/taskbar" />
 
     <ImageView
         android:id="@+id/TaskBar4"
         android:layout_width="255dp"
         android:layout_height="40dp"
-        android:layout_marginBottom="84dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:srcCompat="@drawable/taskbar"
-        tools:layout_editor_absoluteX="82dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823"
+        app:srcCompat="@drawable/taskbar" />
 
     <ImageView
         android:id="@+id/TaskForToday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/date"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="522dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55"
+        app:srcCompat="@drawable/date" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
