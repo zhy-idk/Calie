@@ -5,9 +5,11 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8AC6D1"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Test pull and commit"
@@ -21,15 +23,33 @@
         android:id="@+id/calendarView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="1dp" />
+        android:layout_marginBottom="544dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="408dp"
-        android:layout_height="367dp"
-        app:srcCompat="@drawable/calie_logo"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="366dp" />
+        android:layout_width="447dp"
+        android:layout_height="366dp"
+        android:contentDescription="test"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836"
+        app:srcCompat="@drawable/calie_logo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/rectangle_23"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="311dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
