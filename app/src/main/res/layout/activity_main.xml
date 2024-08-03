@@ -48,8 +48,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#00FFFFFF"
-        app:srcCompat="@drawable/rectangle_23"
-        tools:layout_editor_absoluteX="237dp"
-        tools:layout_editor_absoluteY="311dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/calendarView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/rectangle_23" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
